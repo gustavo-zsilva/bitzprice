@@ -1,0 +1,33 @@
+{
+  "name": "bitzprice",
+  "version": "1.0.0",
+  "description": "First time using NextJS for building a project. Bitzprice is a bitcoin price fetcher application.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo-zsilva/bitzprice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavo-zsilva/bitzprice/issues"
+  },
+  "homepage": "https://github.com/gustavo-zsilva/bitzprice#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^10.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.8",
+    "@types/react": "^16.9.56"
+  }
+}
